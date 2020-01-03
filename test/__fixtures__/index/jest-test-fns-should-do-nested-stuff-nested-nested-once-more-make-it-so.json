@@ -1,0 +1,30 @@
+[
+    {
+        "scope": "http://echo.jsontest.com:80",
+        "method": "GET",
+        "path": "/key1/val1/key2/val2",
+        "body": "",
+        "status": 200,
+        "response": {
+            "key1": "val1",
+            "key2": "val2"
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Origin",
+            "*",
+            "Content-Type",
+            "application/json",
+            "X-Cloud-Trace-Context",
+            "4185f1219daf7d5d53d575e83b349c45",
+            "Date",
+            "Fri, 03 Jan 2020 17:06:00 GMT",
+            "Server",
+            "Google Frontend",
+            "Content-Length",
+            "41",
+            "Connection",
+            "close"
+        ],
+        "responseIsBinary": false
+    }
+]
