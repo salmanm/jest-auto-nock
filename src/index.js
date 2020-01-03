@@ -54,7 +54,7 @@ function bindNock (m, reporter, opts) {
       nockBack.fixtures = path.join(path.dirname(opts.testPath), '__fixtures__')
 
       const fixtureName = opts.generateMockName(title, opts.testPath, reporter, opts.fixtureDir)
-      const { nockDone, context } = await nockBack(fixtureName)
+      const { nockDone, context } = await nockBack(fixtureName, opts.nock)
 
       const ret = testFnPromise.call({ nock: context })
 
