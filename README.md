@@ -1,0 +1,1 @@
+# jest-auto-nock
